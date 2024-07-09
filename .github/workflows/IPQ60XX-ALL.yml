@@ -96,6 +96,13 @@ jobs:
         sed -i '1i src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
         ./scripts/feeds update -a
         ./scripts/feeds install -a
+        find feeds/packages/net/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
+        find feeds/luci/applications/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
+        find feeds/packages/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
+
+        find package/feeds/packages/net/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
+        find package/feeds/luci/applications/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
+        find package/feeds/packages/ -type d -name "*shadowsocks*" -exec rm -rf {} \;
   
     - name: Load Custom Configuration(加载自定义配置)
       run: |
