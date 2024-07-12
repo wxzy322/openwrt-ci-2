@@ -1,4 +1,4 @@
-name: 360v6-JiaY-shi
+name: 360v6-Libwrt
 
 on:
   workflow_dispatch:
