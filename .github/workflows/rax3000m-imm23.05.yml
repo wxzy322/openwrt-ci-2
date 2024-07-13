@@ -8,7 +8,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
-  CONFIG_FILE: configs/rax3000m-imm23.05.config
+  CONFIG_FILE: configs/rax3000m-imm2305.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
