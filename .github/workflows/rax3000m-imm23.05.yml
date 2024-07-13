@@ -100,8 +100,8 @@ jobs:
         
     - name: 删除报错文件夹
       run: |
-        cd $OPENWRT_PATH
-        rm -rf package/feeds/smpackage/{luci-app-bandwidthd,luci-app-bypass,luci-app-gowebdav,luci-app-ssr-plus,natflow}
+      #  cd $OPENWRT_PATH
+      #  rm -rf package/feeds/smpackage/{luci-app-bandwidthd,luci-app-bypass,luci-app-gowebdav,luci-app-ssr-plus,natflow}
   
     - name: Load Custom Configuration(加载自定义配置)
       run: |
