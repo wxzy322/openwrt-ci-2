@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: 360v6-libwrt
+  FIRMWARE_TAG: ax3600-libwrt
   TZ: Asia/Shanghai
 
 jobs:
