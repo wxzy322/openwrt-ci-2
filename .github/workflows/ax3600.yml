@@ -1,4 +1,4 @@
-name: 360v6-Libwrt
+name: ax3600-Libwrt
 
 on:
   workflow_dispatch:
