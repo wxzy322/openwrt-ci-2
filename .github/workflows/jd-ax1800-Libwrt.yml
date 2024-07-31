@@ -2,7 +2,7 @@ name: jd-ax1800-Libwrt
 
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     #- cron: 0 19 * * *
 
 env:
